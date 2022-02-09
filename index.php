@@ -86,7 +86,7 @@
 		
 	<div class="container">
 		<div class="row">
-			<div class="col-md-12 py-4">
+			<div class="col-md-12">
 				<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8150629877562817"
 				     crossorigin="anonymous"></script>
 				<ins class="adsbygoogle"
