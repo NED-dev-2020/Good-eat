@@ -20,7 +20,7 @@
 			 	}
 
 			 	.sous-header{
-			 		padding-top: 100px;
+			 		padding-top: 80px;
 			 	}
 
 			}
