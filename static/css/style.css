@@ -1,0 +1,195 @@
+    *{
+	margin: 0;
+	padding: 0;
+}
+
+a{
+	text-decoration: none;
+	color: #fff;
+}
+
+a:hover{
+	color: red;
+	letter-spacing: 2px;
+}
+
+body{
+	background-color: #f5ffff;
+	font-family: Century Gothic;
+}
+
+
+
+
+/* header home */
+.header-home{
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+
+}
+
+.sous-header{
+	background-color: rgba(0, 0, 0, 0.5);
+	height: 417px;
+	padding-left: 10%;
+	padding-top: 10%;
+}
+
+.sous-header h1{
+	color: #fff;
+	font-size: 50px;
+	font-weight: 800;
+}
+
+.sous-header h1 span{
+	color: red;
+	font-size: 84px;
+}
+
+.sous-header p{
+	max-width: 40%;
+	color: #ccc;
+}
+
+.sous-header a{
+	transition: 0.5s;
+	display: inline-block;	
+	margin-top: 20px;
+	background-color: #ccc;
+	padding: 5px 15px;
+	border-radius: 2px;
+}
+
+.sous-header a:hover{
+
+}
+
+
+
+.text-justify{
+	text-align: justify;
+}
+
+.formation{
+	border: 1px solid #000033;
+	margin: auto;
+	padding: 20px;
+	margin-top: 20px;
+
+/*	box-shadow: 4px 0px 30px rgba(0, 0, 0, 0.2);
+*/}
+
+
+.img-gallery{
+	width: 100%;
+	height: 250px;
+	object-fit: cover;
+}
+
+.img-gallery-2{
+	width: 100%;
+	height: 517px;
+	object-fit: cover;
+}
+
+.icone-footer{
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	border-radius: 360px;
+	margin-right: 10px;
+	text-align: center;
+	padding-top: 5px;
+	font-size: 15px;
+	color: #fff;
+
+}
+
+.icone-footer:hover{
+	color: #fff;
+}
+
+/* partie contact*/
+.header-contact{
+	background-image: url(../image/souza.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.header-contact .sous-header h1{
+	text-align: center;
+}
+
+/* partie content*/
+.content{
+	width: 80%;
+	margin: auto;
+	margin-top: 30px;
+}
+
+
+/* header-contact */
+.header-contact{
+	background-image: url('../image/souza.jpg');
+	background-size: cover;
+	background-position: center;
+
+}
+
+.header-contact .sous-header h1{
+	text-align: center;
+}
+
+/* content */
+
+.content{
+	width: 80%;
+	margin: auto;
+	margin-top: 30px;
+}
+
+/* form-contact */
+.form-contact{
+	padding: 30px;
+
+}
+
+
+
+
+
+}
+/* responsivité*/
+ @media(max-width: 972px){
+ 	nav ul{
+ 		display: none;
+ 	}
+ 	#btn{
+ 		display: block;
+ 	}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
