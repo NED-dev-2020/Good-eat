@@ -80,7 +80,24 @@
 	</div>
 
 	</div>
-
+		
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 py-4">
+				<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8150629877562817"
+				     crossorigin="anonymous"></script>
+				<ins class="adsbygoogle"
+				     style="display:block"
+				     data-ad-format="fluid"
+				     data-ad-layout-key="-fb+5w+4e-db+86"
+				     data-ad-client="ca-pub-8150629877562817"
+				     data-ad-slot="4185575874"></ins>
+				<script>
+				     (adsbygoogle = window.adsbygoogle || []).push({});
+				</script>
+			</div>
+		</div>
+	</div>
 
 	<div class="container">
 		<div class="row">
