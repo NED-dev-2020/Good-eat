@@ -40,7 +40,7 @@
 			<h1> GOOD eat.</h1>
 			<p id="para">Tacos à consommer avec modération. Les tacos sont vraiment très bon avec une sauce fromagère délicieuse.
 			</p>
-			<a href="#commander" style="background-color:gold; padding: 10px;">Commander</a>
+			<a href="#commander" style="background-color: orange; padding: 10px;">Commander</a>
 		</div>
 
 	</div>
@@ -83,24 +83,7 @@
 	</div>
 
 	</div>
-		
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12">
-				<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8150629877562817"
-				     crossorigin="anonymous"></script>
-				<ins class="adsbygoogle"
-				     style="display:block"
-				     data-ad-format="fluid"
-				     data-ad-layout-key="-fb+5w+4e-db+86"
-				     data-ad-client="ca-pub-8150629877562817"
-				     data-ad-slot="4185575874"></ins>
-				<script>
-				     (adsbygoogle = window.adsbygoogle || []).push({});
-				</script>
-			</div>
-		</div>
-	</div>
+
 
 	<div class="container">
 		<div class="row">
@@ -108,7 +91,7 @@
 			<div class="col-md-6 py-4">
 				<form method="POST">
 						<div class="form-group">
-							<label>Nom complet <span class="text-red-1"></span>*</label>
+							<label class="form-label">Nom complet <span class="text-red-1"></span>*</label>
 							<input type="text" name="Nom" class="form-control">
 						</div>
 						<div class="form-group">
@@ -116,11 +99,11 @@
 							<input type="text" name="tel" class="form-control">
 						</div>
 						<div class="form-group">
-							<label>Adresse</label>
+							<label class="form-label">Adresse</label>
 							<input type="text" name="adresse" class="form-control">
 						</div>
 						<div class="form-group">
-							<label>Choix du menu <span>*</span></label>
+							<label class="form-label">Choix du menu <span>*</span></label>
 							<select name="objet" class="form-select">
 								<option value="Tacos Crousti"> Tacos crousti</option>
 								<option value="Tacos Boursin">Tacos Boursin</option>
@@ -131,13 +114,13 @@
 
 
 						<div class="form-group py-2">
-							<label>Nombre de Tacos</label>
+							<label class="form-label">Nombre de Tacos</label>
 							<input type="number" name="Nombre de Tacos" class="form-control">
 						</div>
 
 						
 						<div class="form-group mt-4">
-							<input type="submit" class="btn btn-danger bg-red" value="Reserver" style="width:100%;">
+							<input type="submit" class="btn btn-danger bg-red" value="Commander" style="width:100%;">
 							
 						</div>
 					</form>
