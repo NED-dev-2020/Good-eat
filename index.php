@@ -143,6 +143,14 @@
 				
 				?>
 				
+				<script type='text/javascript'>
+				    Swal.fire({
+					  icon: 'success',
+					  title: 'Reussie !',
+					  text: 'Commande effectuée avec succes !',
+					})
+					</script>
+				
 			</div>
 			<div class="col-md-6 py-5">
 				<img src="https://images.pexels.com/photos/4393436/pexels-photo-4393436.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="d-block w-100" style="object-fit: cover; height:351px;">
