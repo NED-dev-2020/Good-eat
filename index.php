@@ -91,19 +91,19 @@
 			<div class="col-md-6 py-4">
 				<form method="POST">
 						<div class="form-group">
-							<label class="form-label">Nom complet <span class="text-red-1"></span>*</label>
+							<label class="form-label">Nom complet <span class="text-danger">*</span></label>
 							<input type="text" name="Nom" class="form-control">
 						</div>
 						<div class="form-group">
-							<label>Telephone <span>*</span></label>
+							<label>Telephone <span class="text-danger">*</span></label>
 							<input type="text" name="tel" class="form-control">
 						</div>
 						<div class="form-group">
-							<label class="form-label">Adresse</label>
+							<label class="form-label">Adresse <span class="text-danger">*</span></label>
 							<input type="text" name="adresse" class="form-control">
 						</div>
 						<div class="form-group">
-							<label class="form-label">Choix du menu <span>*</span></label>
+							<label class="form-label">Choix du menu <span class="text-danger">*</span></label>
 							<select name="objet" class="form-select">
 								<option value="Tacos Crousti"> Tacos crousti</option>
 								<option value="Tacos Boursin">Tacos Boursin</option>
@@ -114,7 +114,7 @@
 
 
 						<div class="form-group py-2">
-							<label class="form-label">Nombre de Tacos</label>
+							<label class="form-label">Nombre de Tacos <span class="text-danger">*</span></label>
 							<input type="number" name="Nombre de Tacos" class="form-control">
 						</div>
 
