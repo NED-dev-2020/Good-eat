@@ -8,7 +8,6 @@
 		<link rel="stylesheet" type="text/css" href="static/css/style.css">
 		<link rel="stylesheet" type="text/css" href="static/fontawesome/css/all.min.css">
 		
-		<link href="//cdn.jsdelivr.net/npm/@sweetalert2/theme-dark@4/dark.css" rel="stylesheet">
 		
 		<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8150629877562817"
      crossorigin="anonymous"></script>
@@ -192,7 +191,7 @@
 		</div>
 
 		
-		<script src="//cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
+		<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
 		<script type="text/javascript" src="static/bootstrap/js/bootstrap.js"></script>
 
