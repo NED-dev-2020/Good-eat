@@ -59,7 +59,7 @@
 
 			<div class="row">
 			<div class="col-md-12 mb-3" style="">
-					<img src="static/image/pexels-jovie-pujadas-ladura-8394940.jpg" class="img-gallery">
+					<img src="https://images.pexels.com/photos/9525081/pexels-photo-9525081.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="img-gallery">
 				</div>
 			</div>
 		</div>
@@ -71,12 +71,12 @@
 		<div class="col-md-4">
 			<div class="row">
 				<div class="col-md-12 mb-3">
-					<img src="static/image/pexels-los-muertos-crew-8448324.jpg" class="img-gallery">
+					<img src="https://images.pexels.com/photos/7613568/pexels-photo-7613568.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="img-gallery">
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-md-12 mb-3">
-					<img src="static/image/pexels-los-muertos-crew-8448331.jpg" class="img-gallery">
+					<img src="https://images.pexels.com/photos/8448324/pexels-photo-8448324.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="img-gallery">
 				</div>
 			</div>
 		</div>
