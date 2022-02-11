@@ -122,7 +122,7 @@
 
 						
 						<div class="form-group mt-4">
-							<input name="commander' type="submit" class="btn btn-danger bg-red" value="Commander" style="width:100%;">
+							<input name="commander" type="submit" class="btn btn-danger bg-red" value="Commander" style="width:100%;">
 							
 						</div>
 					</form>
