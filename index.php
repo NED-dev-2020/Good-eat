@@ -34,7 +34,7 @@
 	
 	
 
-	<div class="header-home" style="background-image: url('static/image/goueth.jpg'); object-fit: cover; width: 100%;height: 417px;">
+	<div class="header-home" style="background-image: url('https://img.freepik.com/photos-gratuite/tacos-mexicains-au-boeuf-sauce-tomate-salsa_2829-14180.jpg?w=1380'); object-fit: cover; width: 100%;height: 417px;">
 
 		<div class="sous-header">
 			<h1> GOOD eat.</h1>
