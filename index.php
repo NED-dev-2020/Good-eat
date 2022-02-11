@@ -142,14 +142,7 @@
 				}
 				
 				?>
-				
-				<script type='text/javascript'>
-				    Swal.fire({
-					  icon: 'success',
-					  title: 'Reussie !',
-					  text: 'Commande effectuée avec succes !',
-					})
-					</script>
+
 				
 			</div>
 			<div class="col-md-6 py-5">
