@@ -8,6 +8,8 @@
 		<link rel="stylesheet" type="text/css" href="static/css/style.css">
 		<link rel="stylesheet" type="text/css" href="static/fontawesome/css/all.min.css">
 		
+		<link href="//cdn.jsdelivr.net/npm/@sweetalert2/theme-dark@4/dark.css" rel="stylesheet">
+		
 		<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8150629877562817"
      crossorigin="anonymous"></script>
 		
@@ -92,19 +94,19 @@
 				<form method="POST">
 						<div class="form-group">
 							<label class="form-label">Nom complet <span class="text-danger">*</span></label>
-							<input type="text" name="Nom" class="form-control">
+							<input type="text" name="Nom" class="form-control" required>
 						</div>
 						<div class="form-group">
 							<label>Telephone <span class="text-danger">*</span></label>
-							<input type="text" name="tel" class="form-control">
+							<input type="text" name="tel" class="form-control" required>
 						</div>
 						<div class="form-group">
 							<label class="form-label">Adresse <span class="text-danger">*</span></label>
-							<input type="text" name="adresse" class="form-control">
+							<input type="text" name="adresse" class="form-control" required>
 						</div>
 						<div class="form-group">
 							<label class="form-label">Choix du menu <span class="text-danger">*</span></label>
-							<select name="objet" class="form-select">
+							<select name="objet" class="form-select" required>
 								<option value="Tacos Crousti"> Tacos crousti</option>
 								<option value="Tacos Boursin">Tacos Boursin</option>
 								<option value="Chèvre Miel">Chèvre Miel</option>
@@ -115,15 +117,27 @@
 
 						<div class="form-group py-2">
 							<label class="form-label">Nombre de Tacos <span class="text-danger">*</span></label>
-							<input type="number" name="Nombre de Tacos" class="form-control">
+							<input type="number" name="Nombre de Tacos" class="form-control" required>
 						</div>
 
 						
 						<div class="form-group mt-4">
-							<input type="submit" class="btn btn-danger bg-red" value="Commander" style="width:100%;">
+							<input name="commander' type="submit" class="btn btn-danger bg-red" value="Commander" style="width:100%;">
 							
 						</div>
 					</form>
+				
+				<?php
+				
+				if (isset($_POST['commander'])) {
+				    Swal.fire({
+					  icon: 'success',
+					  title: 'Reussie !',
+					  text: 'Commande effectuée avec succes !',
+					})
+				}
+				
+				?>
 				
 			</div>
 			<div class="col-md-6 py-5">
@@ -172,6 +186,8 @@
 			</div>
 		</div>
 
+		
+		<script src="//cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
 
 		<script type="text/javascript" src="static/bootstrap/js/bootstrap.js"></script>
 
