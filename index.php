@@ -131,12 +131,15 @@
 				
 				if (isset($_POST['commander'])) {
 					echo "
+					<script type='text/javascript'>
 				    Swal.fire({
 					  icon: 'success',
 					  title: 'Reussie !',
 					  text: 'Commande effectuée avec succes !',
 					})
+					</script>
 					";
+					
 				}
 				
 				?>
